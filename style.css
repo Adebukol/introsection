@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Lato:wght@100;300;400;700;900&family=Poppins:wght@300;400;500;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Epilogue', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+background-color: hsl(0, 0%, 98%);
+}
+
+.container{
+  width: 100%;
+}
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.nav-links{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  list-style: none;
+}
+.logo{
+  margin-right: 40px;
+}
+.nav-links li{
+  margin-right: 20px;
+}
+.links a{
+  text-decoration: none;
+  margin-left: 20px;
+}
+.register{
+  border:2px solid grey;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+/* to edit*/
+#class-list{
+  display: none;
+}
+/*--------------------------------------------------------------*/
+main{
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  /* justify-content: space-between; */
+}
+h1{
+  font-size: 90px;
+  padding-bottom: 50px;
+  margin-right: 50px;
+}
+p{
+  font-size: 18px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+}
+.section1{
+  margin-top: 100px;
+  padding-left: 80px;
+}
+.section2 img{
+  height: 100%;
+  width: 100%;
+  padding-left: 100px;
+  margin-right: 100px;
+  /* padding: 200px; */
+}
+.learn-more {
+  border: 2px solid hsl(0, 0%, 8%);
+  text-decoration: none;
+  color: hsl(0, 0%, 8%);
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+/* ## Colors
+
+### Neutral
+
+- Almost White: hsl(0, 0%, 98%)
+- Medium Gray: hsl(0, 0%, 41%)
+- Almost Black: hsl(0, 0%, 8%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 18px
+
+### Font
+
+- Family: [Epilogue](https://fonts.google.com/specimen/Epilogue)
+- Weights: 500, 700 */
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
