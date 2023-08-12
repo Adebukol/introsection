@@ -1,8 +1,12 @@
 function show(){
   // document.getElementById("mouseup").style.transform = rotateZ("-180deg");
-  document.getElementById("myDropdown").style.display = "block";
+  document.getElementById("navBar").style.display = "block";
+  //document.getElementById("others").style.display = "block";
 }
-
+const closeMenu = document.getElementById("close")
+closeMenu.onclick = function(){
+  document.getElementById("navBar").style.display = "none";
+}
 function reveal(){
   document.getElementById("class-list").style.display=" block";
 }
