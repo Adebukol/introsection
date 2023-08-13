@@ -1,6 +1,8 @@
-function show(){
+const arrow = document.getElementsByClassName('mouseup');
+function showMenu(){
   // document.getElementById("mouseup").style.transform = rotateZ("-180deg");
   document.getElementById("navBar").style.display = "block";
+  
   //document.getElementById("others").style.display = "block";
 }
 const closeMenu = document.getElementById("close")
@@ -8,7 +10,8 @@ closeMenu.onclick = function(){
   document.getElementById("navBar").style.display = "none";
 }
 function reveal(){
-  document.getElementById("class-list").style.display=" block";
+  document.getElementById("class-list").style.visibility="visible";
+  arrow.src = "images\icon-arrow-up.svg";
 }
 window.onclick = function(e){
   if(!e.target.matches(".show-features")){
