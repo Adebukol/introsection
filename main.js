@@ -1,7 +1,8 @@
 const arrow = document.getElementsByClassName('mouseup');
 function showMenu(){
+  console.log("clicked");
   // document.getElementById("mouseup").style.transform = rotateZ("-180deg");
-  document.getElementById("navBar").style.display = "block";
+  //document.getElementById("navBar").style.display = "block";
   
   //document.getElementById("others").style.display = "block";
 }
