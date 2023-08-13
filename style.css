@@ -42,6 +42,7 @@ background-color: hsl(0, 0%, 98%);
 }
 .nav-links li{
   margin-right: 30px;
+  cursor: pointer;
 }
 .nav-links li a:hover{
   color:black;
@@ -70,10 +71,9 @@ background-color: hsl(0, 0%, 98%);
   margin-left: 30px;
   text-align: center;
 }
+
 .dropdown-menu{
-  visibility: visible;
-  display: flex;
-  flex-direction: column;
+  display: none;
   position: absolute;
   justify-content: center;
   align-items: center;
@@ -93,21 +93,22 @@ background-color: hsl(0, 0%, 98%);
 }
 .dropdown-menu a{
   margin-bottom: 20px;
+  display: block;
+  cursor: pointer;
+  font-size: 14px;
 }
 
 .dropdown-menu1{
-  visibility: hidden;
-  display: flex;
-  flex-direction: column;
+   display: none;
+  background: #fff;
   position: absolute;
   align-items: flex-start;
   left: 15%;
-  background: none;
   box-shadow: 0px 0px 0px 0px grey;
   border-radius: 10px;
-  width:150px;
+  width:120px;
   overflow: hidden;
-  top: 200px;
+  top: 100px;
   z-index: 1;
   height: 15%;
   padding: 20px;
@@ -117,8 +118,10 @@ background-color: hsl(0, 0%, 98%);
   padding: 8px;
   text-decoration: none;
   display: block;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
+  cursor: pointer;
+  
 }
 /* .dropdown-menu1 a{
   display: flex;
@@ -317,10 +320,8 @@ margin-top: 100px;
     margin-top: 20px;
     width: 70%;
   }
+
   .dropdown-menu{
-    visibility: hidden;
-    display: flex;
-    flex-direction: column;
     position: relative;
     justify-content: center;
     align-items: center;
@@ -335,6 +336,7 @@ margin-top: 100px;
     height: 5%;
     padding: 25px;
     padding-bottom: 0px;
+    display: none;
   }
   .dropdown-menu img{
     margin-right: 10px;
@@ -342,12 +344,13 @@ margin-top: 100px;
   .dropdown-menu a{
     font-size: 16px;
     margin-bottom: 20px;
+    display: block;
   }
-
+  /* .dropdown-menu, .dropdown-menu1{
+    display: none;
+  } */
   .dropdown-menu1{
-    visibility: hidden;
-    display: flex;
-    flex-direction: column;
+    display: none;
     position: relative;
     align-items: flex-start;
     left: 10%;

@@ -1,21 +1,25 @@
-const arrow = document.getElementsByClassName('mouseup');
+const arrow = document.querySelector('.mouseup');
+const arrowUp = document.querySelector('.rotate');
 function showMenu(){
-  // document.getElementById("mouseup").style.transform = rotateZ("-180deg");
   document.getElementById("navBar").style.display = "block";
-  
-  //document.getElementById("others").style.display = "block";
 }
 const closeMenu = document.getElementById("close")
 closeMenu.onclick = function(){
   document.getElementById("navBar").style.display = "none";
 }
+
 function reveal(){
-  document.getElementById("class-list").style.visibility="visible";
-  arrow.src = "images\icon-arrow-up.svg";
+  document.getElementById("class-list").style.display="block";
+  arrow.src = "images/icon-arrow-up.svg";
+}
+function companyEl(){
+  document.getElementById("myDropdown").style.display="block";
+  arrowUp.src = "images/icon-arrow-up.svg";
 }
 window.onclick = function(e){
-  if(!e.target.matches(".show-features")){
+  if(!e.target.matches(".show-features, .show-company")){
       var myDropdown = document.getElementById("myDropdown");
+      var myDropdown = document.getElementById("class-list");
       // var i;
       // for(i = 0; i<dropdowns.length; i++) {
       //     var openDropdown = dropdowns[i];
