@@ -103,14 +103,14 @@ background-color: hsl(0, 0%, 98%);
   background: #fff;
   position: absolute;
   align-items: flex-start;
-  left: 15%;
+  left: 18%;
   box-shadow: 0px 0px 0px 0px grey;
   border-radius: 10px;
   width:120px;
   overflow: hidden;
   top: 100px;
   z-index: 1;
-  height: 15%;
+  height: 18%;
   padding: 20px;
 }
 .dropdown-menu1 a{
@@ -121,12 +121,8 @@ background-color: hsl(0, 0%, 98%);
   font-size: 14px;
   font-weight: 500;
   cursor: pointer;
-  
 }
-/* .dropdown-menu1 a{
-  display: flex;
-  flex-direction: column;
-} */
+
 .dropdown-menu, .dropdown-menu1 a:hover{
   color: orange;
 }
@@ -203,50 +199,6 @@ margin-top: 100px;
   cursor: pointer;
 }
 
-/* .dropbtn{
-  background : none;
-  border: none;
-  color: rgb(49, 47, 47);
-  padding-left: 10px;
-  cursor: pointer;
-  font-size: 12px;
-}
-.dropbtn:hover,
-.dropbtn.active{
-  color: orange;
-  border: none;
-  background: none;
-} */
-
-
-/* .rotate {
-  -moz-transition: all .5s linear;
-  -webkit-transition: all .5s linear;
-  transition: all .5s linear;
-}
-.rotate.down {
-  -moz-transform:rotate(180deg);
-  -webkit-transform:rotate(180deg);
-  transform:rotate(180deg);
-} */
-/* ## Colors
-
-### Neutral
-
-- Almost White: hsl(0, 0%, 98%)
-- Medium Gray: hsl(0, 0%, 41%)
-- Almost Black: hsl(0, 0%, 8%)
-
-## Typography
-
-### Body Copy
-
-- Font size (paragraph): 18px
-
-### Font
-
-- Family: [Epilogue](https://fonts.google.com/specimen/Epilogue)
-- Weights: 500, 700 */
 
 .attribution { font-size: 11px; 
   text-align: center; 
@@ -377,6 +329,7 @@ margin-top: 100px;
     font-size: 35px;
     margin-right: 0px;
     text-align: center;
+   margin-bottom: 10px;
   }
   br{
     display: none;
@@ -392,12 +345,12 @@ margin-top: 100px;
   }
   p{
     /* margin: 30px 20px 30px 20px; */
-    padding: 30px 20px 30px 20px;
+    padding: 10px;
     text-align: center;
     font-size:16px;
-    margin: 0px;
+    margin-bottom: 30px;
     min-width: 100%;
-    font-size: 500;
+    font-weight: 500;
   }
   .learn-more{
     display: block;
@@ -407,13 +360,13 @@ margin-top: 100px;
     
   }
   .images{
-    display: flex;
+   display: flex;
+   justify-content: center;
     margin-top: 50px;
   }
   .images img{
-    width: 70px;
+    width: 60px;
     height: 20px;
-    margin-right: 5px;
   }
   .hero-desktop{
     display: none;
@@ -422,5 +375,8 @@ margin-top: 100px;
     display: block;
     padding: 0px;
     margin-bottom: 40px;
+  }
+  .attribution{
+    margin-bottom: 20px;
   }
     }

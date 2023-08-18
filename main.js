@@ -10,11 +10,15 @@ closeMenu.onclick = function(){
 
 function reveal(){
   document.getElementById("class-list").style.display="block";
+  document.getElementById("myDropdown").style.display="none";
   arrow.src = "images/icon-arrow-up.svg";
+  arrowUp.src = "images/icon-arrow-down.svg";
 }
 function companyEl(){
   document.getElementById("myDropdown").style.display="block";
+  document.getElementById("class-list").style.display="none";
   arrowUp.src = "images/icon-arrow-up.svg";
+  arrow.src = "images/icon-arrow-down.svg";
 }
 window.onclick = function(e){
   if(!e.target.matches(".show-features, .show-company")){
